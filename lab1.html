@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>person details</title>
+</head>
+<body>
+	<form>
+		<label for="name" >name:</label>
+		<input type="text" name="name" placeholder="your name" maxlength="25" required><br>
+		<label for="email">email:</label>
+		<input type="text" name="email" value="reena@gmail.com" autofocus required><br>
+		<label for="pwd">password:</label>
+		<input type="password" name="pwd" maxlength="6" required><br>
+		<label for="ctry">catogory:</label>
+		<select id="ctry" value="free" required>
+			<option >student</option>
+			<option >employ</option>
+			<option selected="selected">freelancer</option>
+		</select><br>
+		<label for="tckt">tickets:</label>
+		<input type="radio" name="tckt" value="tkt">ticket1
+		<input type="radio" name="tckt" value="tkt" checked>ticket2
+		<input type="radio" name="tckt" value="tkt">ticket3<br>
+		<label for="pym">payment:</label>
+		<input type="checkbox" name="pym" value="onlinepayment" checked required>online payment
+		<input type="checkbox" name="pym" value="directpayment">direct payment<br>
+		<label for="not">notes:</label>
+		<textarea rows="20" cols="20" name="details"></textarea><br>
+		<input type="submit" name="submit" value="submit" required>
+
+
+	</form>
+
+</body>
+</html>
